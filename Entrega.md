@@ -71,11 +71,11 @@ O **mapeamento** é atribuído estaticamente, passando os argumentos como o núm
 ### Aceleração
 
 
-![](/images/ImagemGraficoMicro.png)
+![](/imagens/ImagemGraficoMicro.png)
 
-![](/images/ImagemGraficoAcele.png)
+![](/imagens/ImagemGraficoAcele.png)
 
-![](/images/ImagemGraficoAceleRep.png)
+![](/imagens/ImagemGraficoAceleRep.png)
 
 
 ### Diferença entre os dois programas 
@@ -101,7 +101,7 @@ A diferença dos dois programas é que no primeiro se utiliza as funções ‘pt
 | OpenMP | 4        | 250000  | 100000      | 68391661  | 
 | OpenMP | 8        | 125000  | 100000      | 53442906  | 
 
-![](/images/ImagemGraficoAceleOPM.png)
+![](/imagens/ImagemGraficoAceleOPM.png)
 
-![](/images/ImagemGraficoAceleOPMRep.png)
+![](/imagens/ImagemGraficoAceleOPMRep.png)
 

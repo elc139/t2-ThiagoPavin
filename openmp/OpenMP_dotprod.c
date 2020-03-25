@@ -125,10 +125,4 @@ int main(int argc, char **argv)
    return EXIT_SUCCESS;
 }
 
-/*int main()
-{
-  #pragma omp parallel
-  printf("Hello World\n");
-  return 0;
-}*/
 
