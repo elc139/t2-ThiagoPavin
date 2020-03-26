@@ -105,3 +105,8 @@ A diferença dos dois programas é que no primeiro se utiliza as funções ‘pt
 
 ![](/imagens/ImagemGraficoAceleOPMRep.png)
 
+## Referências
+
+https://www.youtube.com/watch?v=1JU931jZP2s
+
+https://computing.llnl.gov/tutorials/openMP/
