@@ -10,9 +10,9 @@ O **particionamento**, esse problema é possível ser realizado paralelamente, p
 A **comunicação** é a proteção de memória dada pelo mutex com as funções ‘pthread_mutex_lock’ que impede outras threads de acessar essa parte de código até ser chamada a função ‘pthread_mutex_unlock’ para liberar para as outras threads.
   
   ```c
-  nthreads = atoi(argv[1]); 
-  wsize = atoi(argv[2]);  // worksize = tamanho do vetor de cada thread
-  repeat = atoi(argv[3]); // numero de repeticoes dos calculos (para aumentar carga)
+  pthread_mutex_lock (&mutexsum);
+  dotdata.c += mysum;
+  pthread_mutex_unlock (&mutexsum);
   ```
 
 
@@ -47,9 +47,9 @@ O **aglomeração** ocorre pelo argumento ‘arg’ passado para a função, ond
 O **mapeamento** é atribuído estaticamente, passando os argumentos como o número de threads que serão usadas e o tamanho dos vetores de cada thread.
 
   ```c
-  pthread_mutex_lock (&mutexsum);
-  dotdata.c += mysum;
-  pthread_mutex_unlock (&mutexsum);
+  nthreads = atoi(argv[1]); 
+  wsize = atoi(argv[2]);  // worksize = tamanho do vetor de cada thread
+  repeat = atoi(argv[3]); // numero de repeticoes dos calculos (para aumentar carga)
   ```
 
 | tool     | nthreads | size    | repetitions | usec      | 
