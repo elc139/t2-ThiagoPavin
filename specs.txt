@@ -1,0 +1,5 @@
+SO: Linux-Ubunto
+
+CPU: Intel Core i7-6700k CPU 4.00GHz
+
+RAM: 16GB
